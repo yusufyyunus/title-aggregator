@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Wired Headlines</title>
+    <style>
+        body {
+            background-color: white;
+            color: black;
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        a {
+            color: black;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .article {
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Wired Headlines (From Jan 1, 2022)</h1>
+    {% for article in articles %}
+        <div class="article">
+            <a href="{{ article.link }}" target="_blank">{{ article.title }}</a>
+            <small>({{ article.date.strftime('%Y-%m-%d') }})</small>
+        </div>
+    {% endfor %}
+</body>
+</html>
