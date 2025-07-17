@@ -1,6 +1,6 @@
 # 📰 Title Aggregator
 
-A simple Flask web application that scrapes and displays headlines from [WIRED RSS Feed](https://www.wired.com/feed/rss), filtering articles from **January 1st, 2022** onward.
+A simple Flask web application that scrapes and displays headlines, filtering articles from **January 1st, 2022** onward.
 
 🌐 **Live App**: [https://title-aggregator-4n2s.onrender.com](https://title-aggregator-4n2s.onrender.com)
 
@@ -24,11 +24,3 @@ A simple Flask web application that scrapes and displays headlines from [WIRED R
 - Render (for hosting)
 
 ---
-
-## 🚀 Local Setup
-
-1. **Clone the repo**
-
-```bash
-git clone https://github.com/your-username/title-aggregator.git
-cd title-aggregator
